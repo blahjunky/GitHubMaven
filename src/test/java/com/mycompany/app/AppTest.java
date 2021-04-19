@@ -17,4 +17,10 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    @DisplayName("Simple multiplication should work")   
+    public void testMultiply() {
+        assertEquals(20, testApp.multiply(4,5),      
+        "Regular multiplication should work");          
+    }
 }
