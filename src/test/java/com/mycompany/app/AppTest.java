@@ -23,16 +23,13 @@ public class AppTest
      * Rigorous Test :-)
      */
     
-    /**
+    
     @Test
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
     }
-    */
     
-    
-    @Test
     public void testMultiply() {
         assertEquals(20, testApp.multiply(4,5));          
     }
