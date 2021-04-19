@@ -18,18 +18,20 @@ public class AppTest
      * Rigorous Test :-)
      */
     
-    /**
+    
     @Test
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
     }
-    */
     
+    
+    /**
     @Test
     @DisplayName("Simple multiplication should work")   
     public void testMultiply() {
         assertEquals(20, testApp.multiply(4,5),      
         "Regular multiplication should work");          
     }
+    */
 }
